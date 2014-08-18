@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" viewBox="0 0 209 326">
+	<rect height="88.6" width="209" y="0" x="0" fill="#2c5aa0"/>
+	<path d="m7.09,7.09,195,0l-195,74.4z" fill="#2c4c84"/>
+	<rect stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="325" width="208" stroke="#2c5aa0" stroke-linecap="butt" stroke-miterlimit="4" y="0.5" x="0.5" stroke-width="1" fill="none"/>
+	<text font-size="28px" font-family="Times New Yorker" y="74" x="24" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:start;word-spacing:0px;text-align:start;" font-style="normal" line-height="125%" font-stretch="normal" xml:space="preserve" font-variant="normal" font-weight="normal" fill="#ffffff"><tspan>Blue Team</tspan></text>
+	<g transform="translate(-484.85473,-156.91713)">
+		<path d="m662,202c-1.47,4.27-2.95,8.54-4.42,12.8h-13.7c3.65,2.92,7.31,5.83,11,8.75-1.47,4.36-2.95,8.72-4.42,13.1,3.83-2.65,7.66-5.3,11.5-7.95,3.8,2.71,7.6,5.42,11.4,8.13-1.3-4.57-2.59-9.13-3.89-13.7,3.59-2.74,7.19-5.48,10.8-8.22-4.63,0.0295-9.25,0.0589-13.9,0.0884-1.44-4.33-2.89-8.66-4.33-13z" fill="#FFF"/>
+		<path stroke-linejoin="miter" d="m646,219c10.8-1.12,21-0.938,32.4,0.0625" transform="translate(0,2.5390623e-6)" stroke="#2c5aa0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1.5" fill="none"/>
+		<path stroke-linejoin="miter" d="m650,225c6.83,0.708,14.5-1.4,23.3-0.5" stroke="#2c5aa0" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="#2c5aa0"/>
+	</g>
+	<g transform="matrix(0.66909975,0,0,0.66909975,-338.4536,16.60218)">
+		<path d="m662,202c-1.47,4.27-2.95,8.54-4.42,12.8h-13.7c3.65,2.92,7.31,5.83,11,8.75-1.47,4.36-2.95,8.72-4.42,13.1,3.83-2.65,7.66-5.3,11.5-7.95,3.8,2.71,7.6,5.42,11.4,8.13-1.3-4.57-2.59-9.13-3.89-13.7,3.59-2.74,7.19-5.48,10.8-8.22-4.63,0.0295-9.25,0.0589-13.9,0.0884-1.44-4.33-2.89-8.66-4.33-13z" fill="#214478"/>
+		<path stroke-linejoin="miter" d="m646,219c10.8-1.12,21-0.938,32.4,0.0625" transform="translate(0,2.5390623e-6)" stroke="#FFF" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1.5" fill="none"/>
+		<path stroke-linejoin="miter" d="m650,225c6.83,0.708,14.5-1.4,23.3-0.5" stroke="#FFF" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="4" fill="none"/>
+	</g>
+	<path stroke-linejoin="miter" d="m131,163,63.8,0" stroke="#214478" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="3" fill="none"/>
+	<path stroke-linejoin="miter" d="m14.1,163,63.8,0" stroke="#214478" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="3" fill="none"/>
+	<text font-size="12px" font-family="ChunkFive" y="230" x="104" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;" font-weight="normal" xml:space="preserve" font-style="normal" font-stretch="normal" font-variant="normal" line-height="100%" fill="#214478"><tspan>Description</tspan></text>
+	<text font-size="36px" font-family="Sketch Block" y="138" x="104" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;" font-weight="normal" xml:space="preserve" font-style="normal" font-stretch="normal" font-variant="normal" line-height="100%" fill="#214478"><tspan>Name</tspan></text>
+</svg>

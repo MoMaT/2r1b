@@ -1,0 +1,62 @@
+{
+	"Citizen": [
+		"blue",
+		"If the president is alive at the end of the last round, you win."
+	],
+	"Terrorist": [
+		"red",
+		"If the president dies, you win."
+	],
+	"President": [
+		"blue",
+		"Blue Team wins if you don't die."
+	],
+	"Bomber": [
+		"red",
+		"Everyone in the same room as you at the end of the game dies.\n\nThe Red Team wins if the President dies."
+	],
+	"President's daughter": [
+		"blue",
+		"You are the backup player for the President. If the President is killed before the bomb goes off or is missing from the game,\nyou take her place."
+	],
+	"Martyr": [
+		"red",
+		"You are the backup player for the Bomber. If the Bomber is killed before the bomb goes off or is missing from the game,\nyou take her place."
+	],
+	"Doctor": [
+		"blue",
+		"You must share cards with the President before the end of the game, or the Blue Team loses."
+	],
+	"Engineer": [
+		"red",
+		"You must share cards with the Bomber before the end of the game, or the Red Team loses."
+	],
+	"Nurse": [
+		"blue",
+		"You are the backup player for the Doctor. If the Doctor is killed before the bomb goes off or is missing from the game,\nyou take her place."
+	],
+	"Tinkerer": [
+		"red",
+		"You are the backup player for the Engineer. If the Engineer is killed before the bomb goes off or is missing from the game,\nyou take her place."
+	],
+	"Hero": [
+		"blue",
+		"If you share cards with the Bomber, the game immediately ends and the Blue Team wins."
+	],
+	"Dr. Boom": [
+		"red",
+		"If you share cards with the President, the game immediately ends and the Red Team wins."
+	],
+	"red spy": [
+		"blue",
+		"You are a member of a Red Team (although your card says Blue)."
+	],
+	"blue spy": [
+		"red",
+		"You are a member of a Blue Team (although your card says Red)."
+	],
+	"Gambler": [
+		"grey",
+		"At the end of the last round you must predict the winning team (or a draw).\n\nIf you are correct, you win.\nIf you are wrong, you lose."
+	],
+}

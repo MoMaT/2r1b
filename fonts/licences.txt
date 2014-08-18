@@ -1,0 +1,18 @@
+The following fonts are distributed with the code:
+
+"Chunk Five" by The League of Moveable Type
+https://www.theleagueofmoveabletype.com/
+licensed under the terms of SIL Open Font License, version 1.1
+http://www.fontsquirrel.com/license/ChunkFive
+
+"Sketch Block Bold" by Lukas Bischoff
+http://www.artill.de/sketch-block/
+Copyright (C) 2009. All rights reserved. Free for non-commercial use.
+
+"Time New Yorker" by D.O.C.S
+http://www.crookedshit.com/
+Copyright (C) 2007. All rights reserved. Free to use.
+
+"AFL Font Pespaye Nonmetric" by Burkay Demirci
+http://www.burkaydemirci.com/
+Copyright (C) 2005. All rights reserved. Free to use.

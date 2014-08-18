@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" viewBox="0 0 209 326">
+	<rect height="88.6" width="209" y="0" x="0" fill="#808080"/>
+	<path d="m7.09,7.09,195,0l-195,74.4z" fill="#666"/>
+	<rect stroke-linejoin="miter" stroke-dasharray="none" stroke-dashoffset="0" height="325" width="208" stroke="#808080" stroke-linecap="butt" stroke-miterlimit="4" y="0.5" x="0.5" stroke-width="1" fill="none"/>
+	<text font-size="28px" font-family="Times New Yorker" y="74" x="19" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:start;word-spacing:0px;text-align:start;" font-weight="normal" xml:space="preserve" font-style="normal" line-height="125%" font-stretch="normal" font-variant="normal" fill="#ffffff"><tspan>Grey Team</tspan></text>
+	<text style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:start;word-spacing:0px;text-align:start;" line-height="125%" font-weight="normal" font-size="32px" font-style="normal" font-stretch="normal" font-variant="normal" y="174.33249" x="96.988487" font-family="AFL Font nonmetric" xml:space="preserve" fill="#666666"><tspan y="174.33249" x="96.988487">?</tspan></text>
+	<text style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:start;word-spacing:0px;text-align:start;" font-weight="normal" xml:space="preserve" font-size="56px" font-style="normal" font-stretch="normal" font-variant="normal" y="79.136253" x="164.16742" font-family="AFL Font nonmetric" line-height="125%" fill="#ffffff"><tspan x="164.16742" y="79.136253">?</tspan></text>
+	<path stroke-linejoin="miter" d="m131,163,63.8,0" stroke="#808080" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="3" fill="none"/>
+	<path stroke-linejoin="miter" d="m14.2,163,63.8,0" stroke="#808080" stroke-linecap="butt" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="3" fill="none"/>
+	<text font-size="12px" font-family="ChunkFive" y="230" x="104" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;" font-weight="normal" xml:space="preserve" font-style="normal" font-stretch="normal" font-variant="normal" line-height="100%" fill="#666"><tspan x="104" y="230">Description</tspan></text>
+	<text font-size="36px" font-family="Sketch Block" y="138" x="104" style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:middle;word-spacing:0px;text-align:center;" font-weight="normal" xml:space="preserve" font-style="normal" font-stretch="normal" font-variant="normal" line-height="100%" fill="#666"><tspan>Name</tspan></text>
+</svg>
