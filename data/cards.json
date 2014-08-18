@@ -59,4 +59,48 @@
 		"grey",
 		"At the end of the last round you must predict the winning team (or a draw).\n\nIf you are correct, you win.\nIf you are wrong, you lose."
 	],
+	"Detective": [
+		"grey",
+		"At the end of the last round you must predict the buried card.\n\nIf you are correct, you win.\nIf you are wrong, you lose."
+	],
+	"Survivor": [
+		"grey",
+		"If at the end of the game, you are not in a room with the Bomber, you win."
+	],
+	"Rival": [
+		"grey",
+		"If at the end of the game, you are not in a room with the President, you win."
+	],
+	"Negotiator": [
+		["red", "blue"],
+		"You may only share cards."
+	],
+	"Coy boy": [
+		["red", "blue"],
+		"You may only share colours.\nThe Therapist can cure you."
+	],
+	"Angel": [
+		["red", "blue"],
+		"You must always tell the truth but you may lie non-verbally."
+	],
+	"Demon": [
+		["red", "blue"],
+		"You must always lie but you may tell the truth non-verbally."
+	],
+	"Therapist": [
+		["red", "blue"],
+		"You cure 'coy' and 'shy' characters with a private reveal and The Paranoid with a card share."
+	],
+	"Paranoid": [
+		["red", "blue"],
+		"You may only share cards once per game. If you share cards with The Therapist, you are cured."
+	],
+	"Mime": [
+		["red", "blue"],
+		"Do your best not to make any noise. Rely on acting."
+	],
+	"Paparazzi": [
+		["red", "blue"],
+		"Publicly reveal your card to prove you may be invasive.\n\nDo your best to prevent private conversations. Look over shoulder or from the bottom to see shared cards."
+	]
 }

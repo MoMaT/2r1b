@@ -15,6 +15,8 @@ class Cards:
 
 	"""
 	def __init__(self, data):
+		if type(data["color"]) is not list:
+			data["color"] = [data["color"]]
 		self.__dict__.update(data)
 
 
@@ -77,10 +79,14 @@ with open("data/cards.json") as config:
 pages = []
 pages.append([cards["Citizen"]] * 8)
 pages.append([cards["Terrorist"]] * 8)
-roles = ["President", "Bomber", "Doctor", "Engineer", "Nurse", "Tinkerer", "President's daughter", "Martyr"]
-pages.append([cards[name] for name in roles])
-roles = ["Hero", "Dr. Boom", "blue spy", "red spy", "Gambler", "Gambler", "Gambler", "Gambler"]
-pages.append([cards[name] for name in roles])
+roles = "President, Bomber, Doctor, Engineer, Nurse, Tinkerer, President's daughter, Martyr"
+pages.append([cards[name] for name in roles.split(", ")])
+roles = "Hero, Dr. Boom, blue spy, red spy, Gambler, Detective, Survivor, Rival"
+pages.append([cards[name] for name in roles.split(", ")])
+roles = "Negotiator, Coy boy, Angel, Demon"
+pages.append([cards[name] for name in roles.split(", ")])
+roles = "Therapist, Paranoid, Mime, Paparazzi"
+pages.append([cards[name] for name in roles.split(", ")])
 
 # read template files data
 svg = {}
@@ -95,25 +101,29 @@ for n, page in enumerate(pages):
 	main_group = ET.SubElement(document, "g", transform="translate(107, 45)", nsmap=nsmap)
 
 	# place cards in the centre of a page in a 4x2 grid
-	for i, card in enumerate(page):
-		x = i * 210 if i < 4 else (i - 4) * 210
-		y = 0 if i < 4 else 327
+	i = 0
+	for card in page:
+		# cards may have more than one color
+		for color in card.color:
+			x = i * 210 if i < 4 else (i - 4) * 210
+			y = 0 if i < 4 else 327
+			i += 1
 
-		card_group = ET.SubElement(main_group, "g", transform="translate({0}, {1})".format(x, y), nsmap=nsmap)
-		template = svg[card.color]
+			card_group = ET.SubElement(main_group, "g", transform="translate({0}, {1})".format(x, y), nsmap=nsmap)
+			template = svg[color]
 
-		# for spy role, add different color header
-		if card.name.endswith("spy"):
-			for element in template[:5]:
-				card_group.append(deepcopy(element))
-			template = svg[card.name.split()[0]][5:]
+			# for spy role, add different color header
+			if card.name.endswith("spy"):
+				for element in template[:5]:
+					card_group.append(deepcopy(element))
+				template = svg[card.name.split()[0]][5:]
 
-		# add SVG elements from the template card
-		for element in template:
-			element = deepcopy(element)
-			if element.tag.endswith("text"):
-				add_text(element, card)
-			card_group.append(element)
+			# add SVG elements from the template card
+			for element in template:
+				element = deepcopy(element)
+				if element.tag.endswith("text"):
+					add_text(element, card)
+				card_group.append(element)
 
 	# save constructed SVG image as file
 	with ET.xmlfile("page.svg", encoding='utf-8') as xml:
