@@ -12,10 +12,11 @@ the card better, or to make more sense:
 * Tuesday Knight -> Hero
 * Psychologist -> Therapist
 
-The default setup of a page is is 2x4 on A4 page in landscape
-orientation. Each card is 59mm width and 92mm height.
-
 You can edit the descriptions of the roles in `data/cards.json`.
+
+The setup of a page is 2x4 cards on A4 page in landscape orientation.
+Each card is 59mm width and 92mm height.
+
 To set cards on a page, change lines like this in `build.py`:
 
 ```python
@@ -30,7 +31,7 @@ roles = "Negotiator, Coy boy, Angel, Demon"
 pages.append([cards[name] for name in roles.split(", ")])
 ```
 
-Check [cards][how the cards look] when printed and put in black back sleeves.
+Check [how the cards look][cards] when printed and put in black back sleeves.
 
 
 [2r1b]: http://tuesdayknightgames.com/tworoomsandaboom/
